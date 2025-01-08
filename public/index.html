@@ -1,29 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>TypeScript Fundamentos e Além</title>
-    <!--
-    <style>
-        .container {
-            border: 1px solid black;
-        }
-    </style>
-    -->
+    <title>Document</title>
 </head>
 
 <body>
     <div class="container">
         <div>
-            <h1>Cadastro Simples de Usuário</h1>
+            <h1>Cadastro simples de usuário</h1>
         </div>
         <hr>
         <div class="row">
             <div class="col-6">
-
                 <div class="row mb-3">
                     <label for="fullName" class="col-sm-2 col-form-label">Nome</label>
                     <div class="col-sm-10">
@@ -39,8 +32,6 @@
                 <fieldset class="row mb-3">
                     <legend class="col-form-label col-sm-2 pt-0">Acesso</legend>
                     <div class="col-sm-10" id="accessRadio">
-
-
                     </div>
                 </fieldset>
                 <div class="row mb-3">
@@ -53,15 +44,26 @@
                         </div>
                     </div>
                 </div>
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <div class="row mb-3">
+                        <label for="register" class="col-sm-2 col-form-label">Casa</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="addressHome">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="register" class="col-sm-2 col-form-label">Trabalho</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="addressWork">
+                        </div>
+                    </div>
+                </fieldset>
                 <button type="submit" id="add" class="btn btn-primary">Adicionar</button>
-
             </div>
             <div class="col-6">
-                <div id="content">
-                </div>
+                <div id="content"></div>
             </div>
-
-
         </div>
     </div>
     <script src="dist/index.js"></script>

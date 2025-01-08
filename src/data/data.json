@@ -1,0 +1,40 @@
+{ 
+    "users": [
+    {
+        "fullName": "João Silva",
+        "register": "A987765",
+        "access": "Administrador",
+        "active": true
+    },
+    {
+        "fullName": "Maria Santos",
+        "register": "G12345",
+        "access": "Gerente",
+        "active": true
+    },
+    {
+        "fullName": "Pedro Oliveira",
+        "register": "F5432",
+        "access": "Funcionario",
+        "active": false
+    },
+    {
+        "fullName": "Ana Pereira",
+        "register": "B67890",
+        "access": "Administrador",
+        "active": true
+    },
+    {
+        "fullName": "Rafael Rodrigues",
+        "register": "M23456",
+        "access": "Gerente",
+        "active": false
+    },
+    {
+        "fullName": "Carla Almeida",
+        "register": "P87654",
+        "access": "Funcionário",
+        "active": true
+    }
+]
+}
