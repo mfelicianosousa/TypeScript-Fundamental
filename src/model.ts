@@ -5,13 +5,32 @@ export enum accessOptions {
     undefined = 'Não definido'
 }
 
-interface IPerson  {
-  fullName: string,
-  address?: string[], 
+class Person  {
+  // propriedades
+
+  
+  constructor(
+    public fullName: string,
+    public address?: string[]
+  ){
+
+  }
+  // funcionalidades
 }
 
-export interface IUser extends IPerson{
-  register?: string | number,
-  access?: accessOptions
-  active?: boolean,
+export class User extends Person{
+  // propriedades
+ 
+  
+  access?: accessOptions;
+  active?: boolean;
+
+  //constructor
+  constructor(
+    public fullName : string,
+    public register?: string | number,
+
+  ){
+    super(fullName);
+  }
 }
